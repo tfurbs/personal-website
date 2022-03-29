@@ -8,7 +8,7 @@
 
 # Run On Your Machine?
   1. Firstly, clone the repository using the git shell 
-      - $ git clone https://github.com/mehulk05/My-Personal-Portfolio.git
+      - $ git clone https://github.com/tfurbs/personal-website.git
   2. Goto the base directory of the project 
      - cd portfolio 
   3. Create a virtual environment and activate it. 
@@ -20,9 +20,8 @@
       - $ python manage.py runserver 
 
 # Live Example
-   [Portfolio](http://msgc320.pythonanywhere.com/)
+   [Portfolio](http://tfurbs.com)
 
 
 # © 2019 GitHub, Inc.
-# personal-website
 # personal-website

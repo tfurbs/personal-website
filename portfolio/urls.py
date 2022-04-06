@@ -19,11 +19,13 @@ from django.conf.urls.static import static
 from django.contrib import admin
 
 from .views import HomeView
+from .views import ProjectView
 
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', HomeView.as_view(), name='home'),
+    url('', ProjectView.as_view(), name='nfl_moneyball_analysis'),
 ]
 
 if settings.DEBUG:

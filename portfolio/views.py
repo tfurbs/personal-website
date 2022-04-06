@@ -10,3 +10,10 @@ class HomeView(TemplateView):
     def get_context_data(self, **kwargs):
         context = super(HomeView, self).get_context_data(**kwargs)
         return context
+
+class ProjectView(TemplateView):
+    template_name = "nfl_moneyball_analysis.html"
+
+    def get_context_data(self, **kwargs):
+        context = super(ProjectView, self).get_context_data(**kwargs)
+        return context
